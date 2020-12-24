@@ -1,16 +1,56 @@
-html,
+footer {
+  text-align: center;
+}
+
 body {
+  font-size: 1rem;
+}
+
+nav {
+  border: none !important;
+  outline: none;
+
+  /* box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.3); */
+}
+
+.nav-link {
+  color: white !important;
   padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.logo {
+  width: 60px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.navItems {
+  padding: 10px;
 }
 
-* {
-  box-sizing: border-box;
+nav a {
+  font-size: 1.2rem;
+  color: white !important;
+  margin-right: 0.5rem !important;
+  /* font-weight: bold; */
+}
+
+.bannerContent {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+}
+.btn-donate {
+  background-color: indianred;
+  border: none;
+}
+
+.btn-donate:hover {
+  background-color: tomato;
+}
+nav a:hover {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style-type: none;
 }

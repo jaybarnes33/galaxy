@@ -1,0 +1,70 @@
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-align: left;
+}
+
+.title > span {
+  color: tomato;
+}
+
+.section {
+  padding: 30px 0;
+}
+
+.sectionHeading {
+  text-align: center;
+}
+
+.flexItem {
+  width: 270px;
+}
+
+.flexItem > div {
+  border: none;
+}
+
+.campaignItems {
+  display: flex;
+  padding: 20px 60px;
+  flex-direction: row;
+
+  flex-shrink: 0;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flexItem a {
+  color: slateblue;
+  font-weight: bold;
+}
+
+.socialIcons {
+  color: white;
+  font-size: 2rem;
+  background-color: indianred;
+  text-orientation: upright;
+  padding: 12px;
+  border-radius: 30px;
+  position: absolute;
+  right: 30px;
+  bottom: 60px;
+}
+
+.socialIcons > span {
+  text-align: center;
+
+  display: block;
+}
+
+.wave {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
